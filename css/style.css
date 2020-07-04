@@ -1,0 +1,229 @@
+*{
+
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;;
+}
+img{
+	max-width: 100%;
+}
+.navbar-brand{
+	text-transform: uppercase;
+	font-size: 30px;
+	font-weight: 500px;
+}
+
+.about-section{
+	background-color:#1ABC9C;
+	height: 500px;
+}
+.avatar{
+margin: 0 auto;
+padding: 30px;
+}
+.avatar img {
+	height: 250px;
+	
+}
+
+.portfolio{
+	font-weight: 500px;
+	font-size: 30px;
+}
+
+.about-part{
+	background-color: #1ABC9C;
+	height: 450px;
+	color: white;
+}
+
+.about-part h1{
+	
+}
+
+.about-article p{
+
+	font-size: 25px;
+}
+
+form{
+	height: 400px;
+}
+
+footer{
+ background-color: #2C3E50;
+ height: 250px;
+ color: white;
+ 
+}
+footer col-4{
+	margin-top: 20px;
+}
+footer h1{
+	font-size: 32px;
+	color: white;
+}
+
+footer p{
+	font-size: 20px;
+	color: white;
+}
+
+.fab:hover{
+color: white;
+}
+
+.copyright{
+	height: 120px;
+	background-color: black;
+	color: white;
+	padding: 35px;
+}
+
+
+
+@media(min-width: 537px){
+	.about-section img{
+		height: 200px;
+	}
+
+	.about-section h1{
+		font-size: 30px;
+	}
+
+	.about-section p{
+		font-size: 22px;
+	}
+
+	.about-part{
+		padding: 5px;
+	}
+	.about-article p{
+		font-size: 15px;
+	}
+
+	footer h1{
+		font-size:22px;
+	}
+
+
+	footer p{
+		font-size: 13px;
+	}
+
+	.fab{
+		width: : 5px;
+	}
+}
+
+
+
+@media(min-width: 768px){
+
+		.about-section img{
+		height: 200px;
+	}
+
+	.about-section h1{
+		font-size: 30px;
+	}
+
+	.about-section p{
+		font-size: 25px;
+	}
+
+	.about-part{
+		padding: 5px;
+	}
+	.about-article p{
+		font-size: 24px;
+	}
+
+	footer h1{
+		font-size:18px;
+	}
+
+
+	footer p{
+		font-size: 20px;
+	}
+
+	.fab{
+		width: : 15px;
+	}
+	
+	}
+
+
+
+
+
+@media(min-width: 992px){
+
+		.about-section img{
+		height: 250px;
+	}
+
+	.about-section h1{
+		font-size: 30px;
+	}
+
+	.about-section p{
+		font-size: 25px;
+	}
+
+	.about-part{
+		padding: 5px;
+	}
+	.about-article p{
+		font-size: 25px;
+	}
+
+	footer h1{
+		font-size:25px;
+	}
+
+
+	footer p{
+		font-size: 22px;
+	}
+
+
+	
+	}
+
+
+
+	@media(min-width: 1200px){
+
+		.about-section img{
+		height: 250px;
+	}
+
+	.about-section h1{
+		font-size: 30px;
+	}
+
+	.about-section p{
+		font-size: 25px;
+	}
+
+	.about-part{
+		padding: 5px;
+	}
+	.about-article p{
+		font-size: 25px;
+	}
+
+	footer h1{
+		font-size:32px;
+	}
+
+
+	footer p{
+		font-size: 20px;
+	}
+
+
+	
+	}
